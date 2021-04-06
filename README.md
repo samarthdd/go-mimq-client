@@ -9,7 +9,7 @@ This app mimic  the icap service  int the diagram below
 
 ###  build
 ```
-git clone https://github.com/ibrahimk9000/mq-demo.git
+git clone https://github.com/k8-proxy/go-mimq-client.git
 cd mq-demo
 go build
 ```

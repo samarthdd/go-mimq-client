@@ -73,7 +73,11 @@ services:
     networks:
       - k8flow
   mq:
+    container_name: rabbitmq
     image: rabbitmq:3-management
+    environment:
+      RABBITMQ_DEFAULT_USER: "<minio-user>"
+      RABBITMQ_DEFAULT_PASS: "<rabbitmq-password>"
     ports:
       - "5672:5672"
       - "15672:15672"
