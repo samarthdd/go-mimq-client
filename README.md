@@ -38,6 +38,7 @@ docker build -t go-k8s-srv2 .
 in the mq-demo directory run 
   ```
 -  docker-compose up  # wait 30 seconds for mq to initialize
+-  export MQHOST=localhost  MQPORT=5672   MQUSER=<MQUSER>  MQPASS=<MQPASS>
 -  ./mq-demo  file.pdf   # the file.pdf should be in  path/to/shared/dir
 ```
 - the processed file will be saved in path/to/shared/dir/rebuild-file.pdf
