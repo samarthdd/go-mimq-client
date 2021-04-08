@@ -15,11 +15,11 @@ import (
 var (
 	AdpatationReuquestExchange   = "adaptation-request-exchange"
 	AdpatationReuquestRoutingKey = "adaptation-request"
-	AdpatationReuquestQueueName  = "adaptation-request-queue"
+	AdpatationReuquestQueueName  = "adaptation-request"
 
 	AdaptationOutcomeExchange   = "adaptation-outcome-exchange"
 	AdaptationOutcomeRoutingKey = "adaptation-outcome"
-	AdaptationOutcomeQueueName  = "adaptation-outcome-queue"
+	AdaptationOutcomeQueueName  = "adaptation-outcome"
 )
 
 var (
